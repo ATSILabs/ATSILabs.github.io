@@ -2,18 +2,18 @@ export default {
     clientID: '0fc71c75-da94-47fc-a45d-0f1ae9366c0a',
 
     // 'wizardUriBase': 'http://localhost:8080/wizard/',
-    wizardUriBase: 'https://atsilabs.github.io/docs/wizard',
+    wizardUriBase: 'https://atsilabs.github.io/docs/wizard/',
 
     // The actual URL of the landing page of your web app.
     // 'premiumAppURL': 'http://localhost:8080/premium-app-sample/index.html',
-    premiumAppURL: 'https://atsilabs.github.io/docs/wizard/index.html',
+    premiumAppURL: 'http://www.atsint.com/',
 
     // Genesys Cloud assigned name for the premium app
     // This should match the integration type name of the Premium App
     // NOTE: During initial development please use ‘premium-app-example’.
     //            Once your premium app is approved an integration type will be created
     //            by the Genesys Cloud product team and you can update the name at that time.
-    appName: 'Conversation Anywhere',
+    appName: 'premium-app-example',
 
     // The minimum permission required for a user to access the Premium App.
     // NOTE: During initial development please use the default permission 
@@ -41,7 +41,7 @@ export default {
     enableCustomSetup: true,
 
     // To be added to names of Genesys Cloud objects created by the wizard
-    prefix: 'PREMIUM_EXAMPLE_',
+    prefix: 'CONV_ANYWHERE_',
 
     // These are the Genesys Cloud items that will be added and provisioned by the wizard
     provisioningInfo: {
