@@ -6,7 +6,7 @@ export default {
 
     // The actual URL of the landing page of your web app.
     // 'premiumAppURL': 'http://localhost:8080/premium-app-sample/index.html',
-    premiumAppURL: 'https://atsilabs.com/',
+    premiumAppURL: 'https://atsilabs.github.io/docs/premium-app-sample/index.html',
 
     // Genesys Cloud assigned name for the premium app
     // This should match the integration type name of the Premium App
