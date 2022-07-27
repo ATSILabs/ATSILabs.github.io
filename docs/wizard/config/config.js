@@ -6,14 +6,14 @@ export default {
 
     // The actual URL of the landing page of your web app.
     // 'premiumAppURL': 'http://localhost:8080/premium-app-sample/index.html',
-    premiumAppURL: 'http://www.atsint.com/',
+    premiumAppURL: 'https://atsilabs.com/',
 
     // Genesys Cloud assigned name for the premium app
     // This should match the integration type name of the Premium App
     // NOTE: During initial development please use ‘premium-app-example’.
     //            Once your premium app is approved an integration type will be created
     //            by the Genesys Cloud product team and you can update the name at that time.
-    appName: 'premium-app-example',
+    appName: 'conversations_anywhere-example',
 
     // The minimum permission required for a user to access the Premium App.
     // NOTE: During initial development please use the default permission 
@@ -24,8 +24,8 @@ export default {
     // Default Values for fail-safe/testing. Shouldn't have to be changed since the app
     // must be able to determine the environment from the query parameter 
     // of the integration's URL
-    defaultPcEnvironment: 'mypurecloud.com',
-    defaultLanguage: 'en-us',
+    defaultPcEnvironment: 'mypurecloud.ie',
+    defaultLanguage: 'eu-west-1',
 
     // The names of the query parameters to check in 
     // determining language and environment
