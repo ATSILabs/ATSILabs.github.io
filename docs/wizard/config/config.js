@@ -1,5 +1,5 @@
 export default {
-    clientID: '0fc71c75-da94-47fc-a45d-0f1ae9366c0a',
+    clientID: '9c798465-ed6f-46a0-9363-4e28d14967b8',
 
     // 'wizardUriBase': 'http://localhost:8080/wizard/',
     wizardUriBase: 'https://atsilabs.github.io/docs/wizard/',
@@ -13,7 +13,7 @@ export default {
     // NOTE: During initial development please use ‘premium-app-example’.
     //            Once your premium app is approved an integration type will be created
     //            by the Genesys Cloud product team and you can update the name at that time.
-    appName: 'conversations_anywhere-example',
+    appName: 'Conversations Anywhere Example',
 
     // The minimum permission required for a user to access the Premium App.
     // NOTE: During initial development please use the default permission 
