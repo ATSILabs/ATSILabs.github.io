@@ -114,6 +114,14 @@ export default {
                  * Please read about the Post Custom Setup module here:
                  * https://developer.genesys.cloud/appfoundry/premium-app-wizard/7-custom-setup#post-custom-setup-module
                  */
+            },
+            {
+                'name': 'Code',
+                'description': 'Generated Client that\'s used by the App FrontEnd and the App Backend',
+                'registeredRedirectUri': ['https://ConversationsAnywhere/home'],
+                'scope': ['users', 'authorization:readonly'],
+                'authorizedGrantType': 'CODE',
+                'accessTokenValiditySeconds': 86400
             }
         ]
     },
