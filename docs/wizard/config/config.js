@@ -53,7 +53,7 @@ export default {
 
     // Enable the optional 'Step 2' in the provisoning process
     // If false, it will not show the page or the step in the wizard
-    enableCustomSetupPageBeforeInstall: true,
+    enableCustomSetupPageBeforeInstall: false,
     // Enable the optional Post Custom Setup module in the install process
     // If true, it will invoke the postCustomSetup module (configure method) after the Genesys Cloud ones (provisioningInfo).
     enableCustomSetupStepAfterInstall: false,
@@ -89,26 +89,12 @@ export default {
                 ]
             }
         ],
-        'group': [
-            {
-                'name': 'Supervisors',
-                'description': 'Supervisors have the ability to watch a queue for ACD conversations.',
-            }
-        ],
-        'app-instance': [
-            {
-                'name': 'Partner Enablement Tools',
-                'url': 'https://genesysappfoundry.github.io/partner-enablement-tools/index.html?language={{pcLangTag}}&environment={{pcEnvironment}}',
-                'type': 'standalone',
-                'groups': ['Supervisors']
-            }
-        ],
         'oauth-client': [
             {
-                'name': 'Client_Credentials',
+                'name': 'CLIENT-CREDENTIALS',
                 'description': 'Generated Client that\'s passed to the App Backend',
                 'roles': ['Role'],
-                'authorizedGrantType': 'CLIENT_CREDENTIALS',
+                'authorizedGrantType': 'CLIENT-CREDENTIALS',
                 /** NOTE: 
                  * If you want to learn how you can send the created credentials back to your system,
                  * Please read about the Post Custom Setup module here:
