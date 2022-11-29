@@ -81,8 +81,20 @@ export default {
                 'description': 'Generated role for access to the app.',
                 'permissionPolicies': [
                     {
-                        'domain': 'integration',
-                        'entityName': 'examplePremiumApp',
+                        'domain': 'conversation',
+                        'entityName': '',
+                        'actionSet': ['*'],
+                        'allowConditions': false
+                    },
+                    {
+                        'domain': 'analytics',
+                        'entityName': '',
+                        'actionSet': ['*'],
+                        'allowConditions': false
+                    },
+                    {
+                        'domain': 'Recording',
+                        'entityName': '',
                         'actionSet': ['*'],
                         'allowConditions': false
                     }
