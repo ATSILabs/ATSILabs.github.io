@@ -1,12 +1,12 @@
 export default
     {
         "en-us": {
-            "txt-premium-app-name": "Premium App",
+            "txt-premium-app-name": "Conversations Anywhere",
             "txt-premium-home": "Home",
             "txt-premium-install": "Install",
             "txt-premium-summary": "Summary",
             "txt-greeting": "Hi",
-            "txt-greeting-2": "Welcome to the Premium App Example Application",
+            "txt-greeting-2": "Welcome to the Conversations Anywhere Application",
             "txt-start": "Start",
             "txt-setup": "Custom Setup",
             "txt-install": "Install",
@@ -72,12 +72,12 @@ export default
             "txt-goto-app": "Go To Application"
         },
         "es": {
-            "txt-premium-app-name": "Premium App",
+            "txt-premium-app-name": "Conversations Anywhere",
             "txt-premium-home": "Home",
             "txt-premium-install": "Instalar",
             "txt-premium-summary": "Resumen",
             "txt-greeting": "Hola",
-            "txt-greeting-2": "Bienvenido a la Aplicación de Ejemplo de Aplicación Premium",
+            "txt-greeting-2": "Bienvenido a la Conversations Anywhere Aplicación Premium",
             "txt-start": "Inicio",
             "txt-setup": "Custom Setup",
             "txt-install": "Instalar",
