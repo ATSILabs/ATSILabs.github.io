@@ -53,7 +53,7 @@ export default {
 
     // Enable the optional 'Step 2' in the provisoning process
     // If false, it will not show the page or the step in the wizard
-    enableCustomSetupPageBeforeInstall: true,
+    enableCustomSetupPageBeforeInstall: false,
     // Enable the optional Post Custom Setup module in the install process
     // If true, it will invoke the postCustomSetup module (configure method) after the Genesys Cloud ones (provisioningInfo).
     enableCustomSetupStepAfterInstall: false,
@@ -82,19 +82,19 @@ export default {
                 'permissionPolicies': [
                     {
                         'domain': 'conversation',
-                        'entityName': '',
+                        'entityName': '*',
                         'actionSet': ['*'],
                         'allowConditions': false
                     },
                     {
                         'domain': 'analytics',
-                        'entityName': '',
+                        'entityName': '*',
                         'actionSet': ['*'],
                         'allowConditions': false
                     },
                     {
                         'domain': 'Recording',
-                        'entityName': '',
+                        'entityName': '*',
                         'actionSet': ['*'],
                         'allowConditions': false
                     }
