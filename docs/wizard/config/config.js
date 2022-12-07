@@ -36,7 +36,7 @@ export default {
     // must be able to determine the environment from the query parameter 
     // of the integration's URL
     defaultPcEnvironment: 'mypurecloud.ie',
-    defaultLanguage: 'eu-west-1',
+    defaultLanguage: 'en-us',
     // List available language assets - manage pcLangTag with possible formats like: en, en-US, en_US, en-CA, en_CA, ...
     // Values in lower case, using - or no separator
     availableLanguageAssets: {
