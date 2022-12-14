@@ -93,7 +93,7 @@ export default {
                         'allowConditions': false
                     },
                     {
-                        'domain': 'Recording',
+                        'domain': 'recording',
                         'entityName': '*',
                         'actionSet': ['*'],
                         'allowConditions': false
